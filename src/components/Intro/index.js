@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 class Intro extends Component {
     constructor(props) {
@@ -8,6 +8,12 @@ class Intro extends Component {
             message: props.message
         }
     }
+
+    // componentWillReceiveProps(nextProps) {
+    //     this.setState({
+    //         message: nextProps.message
+    //     })
+    // }
 
     render() {
         const { message } = this.state
