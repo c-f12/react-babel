@@ -9,6 +9,7 @@ class Intro extends Component {
         }
     }
 
+    // Con this setState se cambia el estado:
     componentWillReceiveProps(nextProps) {
          this.setState({
              message: nextProps.message

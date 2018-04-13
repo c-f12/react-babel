@@ -5,6 +5,7 @@ import Header from './components/Header'
 import Intro from './components/Intro'
 import WonderForm from './components/WonderForm'
 
+// El estado se define en el constructor:
 class App extends Component {
     constructor(props) {
         super(props)
